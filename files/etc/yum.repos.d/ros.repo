@@ -1,0 +1,23 @@
+[ros2]
+name=ROS 2 - $basearch
+enabled=1
+baseurl=http://packages.ros.org/ros2/rhel/9/$basearch/
+gpgcheck=0
+repo_gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ros
+
+[ros2-debug]
+name=ROS 2 - $basearch Debug
+enabled=0
+baseurl=http://packages.ros.org/ros2/rhel/9/$basearch/debug/
+gpgcheck=0
+repo_gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ros
+
+[ros2-source]
+name=ROS 2 - Source
+enabled=0
+baseurl=http://packages.ros.org/ros2/rhel/9/SRPMS/
+gpgcheck=0
+repo_gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ros
